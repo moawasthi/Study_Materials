@@ -1,0 +1,4 @@
+TableName,ColumnName,Description
+City,City,Contains Geographical Locations of Cities
+City,Continent,Contains Geographical Locations of Continent to which the city belongs to
+City,Country,Contains Geographical Locations of Country to which the city belongs to
