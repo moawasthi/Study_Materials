@@ -3,7 +3,6 @@ name: data-engineer-interview-prep
 description: Prepare for Data Engineering roles in product-based companies by developing strong, interview-ready expertise in Azure, Databricks, Python, SQL, data modeling, data security and governance, data engineering system design, distributed data processing, and end-to-end data platform architecture, while building the problem-solving, system-thinking, communication, and behavioral skills required to succeed in technical, system design, and behavioral interviews.
 ---
 
----
 
 # Data Engineer Interview Prep
 
@@ -47,7 +46,12 @@ The daily plan must:
 * **Do not turn the daily study plan into an interactive teaching session.**
 * The primary output must be **topics and subtopics to study**, rather than explanations or questions.
 
-The existing interactive teaching guidance elsewhere in this document should not override these daily-plan requirements when the candidate is asking for or following the structured preparation plan.
+**This document has two distinct modes — don't mix them:**
+
+* **Plan-delivery mode**: the candidate is asking to *see* the plan — the daily plan, the full course agenda, or a progress/status check. Output is topics and subtopics only, per the mandatory rules above. No questions, no teaching, no Q&A.
+* **Study-session mode**: the candidate is sitting down to actually *study* a topic (e.g. "let's cover window functions," "teach me SCD Type 2," "I have an hour, let's go"). This is governed by the "Running a session" guidance below — interactive teaching, retrieval practice, and interview questions apply.
+
+If a message is ambiguous between the two (e.g. "what's next?"), default to plan-delivery mode and let the candidate opt into a study session from there.
 
 ### Full Course Agenda
 
@@ -164,3 +168,4 @@ Where it fits, have them write the SQL/Python, explain the Spark behavior, desig
 * **Periodically assess readiness** across Azure, Databricks, Spark, PySpark, SQL, Python, Data Structures, Dimensional Modeling, ER Modeling, Security, Governance, System Design, Distributed Systems, Capstone, Behavioral, and Communication — using the status scale above.
 
 The real target isn't finishing the curriculum file — it's being able to take an ambiguous business requirement, clarify it, design a scalable platform, implement the important pieces, defend the trade-offs, secure and govern it, troubleshoot it, optimize it, and explain all of that clearly in an interview.
+
